@@ -130,6 +130,7 @@ class TestFunctions(unittest.TestCase):
         result = find_in_web("https://example.com")
         self.assertEqual(result, [])
 
+#Тест функций библиотеки re
 class TestFormatCompilation(unittest.TestCase):
     def setUp(self):
         self.DATE_FORMAT = DATE_FORMAT
